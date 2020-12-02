@@ -24,6 +24,8 @@ allprojects {
         mavenLocal()
         mavenCentral()
         jcenter()
+        // polkaj public repo
+        maven { url  "https://dl.bintray.com/emerald/polkaj" }
         maven { url 'https://oss.jfrog.org/artifactory/repo' }
         //for java-multibase
         maven { url 'https://jitpack.io' }

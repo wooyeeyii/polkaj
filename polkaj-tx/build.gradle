@@ -3,8 +3,10 @@ dependencies {
     api project(":polkaj-scale-types")
     api project(":polkaj-json-types")
     api project(":polkaj-ss58")
-    api project(":polkaj-schnorrkel")
+//    api project(":polkaj-schnorrkel")
     api project(":polkaj-api-base")
+
+    implementation "io.emeraldpay.polkaj:polkaj-schnorrkel:0.3.0"
 
     // for xxHash
     api 'net.openhft:zero-allocation-hashing:0.11'

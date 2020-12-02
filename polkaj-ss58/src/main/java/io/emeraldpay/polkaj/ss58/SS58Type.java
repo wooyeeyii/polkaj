@@ -34,6 +34,7 @@ public abstract class SS58Type {
         public static Network DOTHEREUM = new Network(0b00010100);
         public static Network SUBSTRATE = new Network(0b00101010);
         public static Network SUBSTRATE_SECONDARY = new Network(0b00101011);
+        public static Network CAHINX = new Network(0b00101100);
 
         private static Network[] ALL = {
                 LIVE, LIVE_SECONDARY,
@@ -41,7 +42,8 @@ public abstract class SS58Type {
                 EDGEWARE_BERLIN,
                 KULUPU, KULUPU_SECONDARY,
                 DOTHEREUM,
-                SUBSTRATE, SUBSTRATE_SECONDARY
+                SUBSTRATE, SUBSTRATE_SECONDARY,
+                CAHINX
         };
 
         private Network(int value) {
